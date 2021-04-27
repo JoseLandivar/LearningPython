@@ -73,3 +73,25 @@ result = a < b
 print(f'Resultado <:{result}')
 
 
+######Operadores Logicos#######
+
+a = True
+b = True
+resultado = a and b
+print(resultado)
+
+resultado = a or b
+print(resultado)
+
+resultado = not a
+print(resultado)
+
+##ejemplo##
+
+num = int(input('Ingrese un numero: '))
+rangomin = 0
+rangomax = 5
+
+dentroderango = (num >= rangomin) and (num <= rangomax)
+
+print(dentroderango)
