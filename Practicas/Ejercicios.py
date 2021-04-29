@@ -27,3 +27,15 @@ precioMuñecas = muñecas * 0.075
 pesoTotal = precioPayasos + precioMuñecas
 
 print(f'El peso de los payason vendidos es de: {precioPayasos}Kg. y el de las muñecas es de {precioMuñecas}Kg., El peso total del paquete sera de {pesoTotal}Kg')
+
+
+
+#Escribir un programa que muestre por pantalla el resultado
+#de la siguiente operación aritmética.
+
+a = 3
+b = 2
+c = 5
+
+d = (((a + b) / (2 * 5))**2)
+print(d)
