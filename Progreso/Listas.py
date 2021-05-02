@@ -1,5 +1,4 @@
 #Creando Lista
-
 nombres = ['Jose','Maria','Kathi','Dayana']
 
 #Imprimir la lista nombres
@@ -24,13 +23,43 @@ print(nombres[ : 3])
 print(nombres[1 : ])
 
 #Cambiar de valor un indice
-
 nombres[3] = 'Marcela'
 print(nombres)
 
 #Iterar lista
-
-for nombre in nombres:
-    print(nombre)
+for variableNombre in nombres:
+    print(variableNombre)
 else:
     print('Fin de la lista')
+    
+#Preguntar el largo de una lista(Cuantos elemento contiene)
+print(len(nombres))
+
+#Agregar un elemento
+nombres.append('Sergio')
+print(nombres)
+
+#Agregar un elemento en un indice en especifico
+nombres.insert(1, 'Antonio')
+print(nombres)
+
+#Borrar un elemento
+nombres.remove('Kathi')
+print(nombres)
+
+#Borrar el ultimo elemento
+nombres.pop()
+print(nombres)
+
+#ELiminar un indice
+del nombres[2]
+print(nombres)
+
+#Limpiar la lista
+nombres.clear()
+print(nombres)
+
+#Borrar la lista por completo
+del nombres
+print(nombres)
+
