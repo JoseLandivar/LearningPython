@@ -1,3 +1,4 @@
+
 #Tuplas es paracido a las listas pero no se puede agregar ni modoficar(inmutable)
 
 #Definir Tupla
@@ -32,3 +33,31 @@ print(frutaTupla)
 #ELiminar la tupla
 del frutaTupla
 print(frutaTupla)
+
+### Set en Python ###
+#Notiene indices, no se puede modificar, ni duplicados
+
+planetas = {'Marte','Jupiter','Venus'}
+print(planetas)
+
+#Ver el largo
+print(len(planetas))
+
+#Buscar un elemento
+print('Marte' in planetas)
+
+#Agregar elemento
+planetas.add('Tierra')
+print(planetas)
+
+#Eliminar elementos
+planetas.remove('Venus')
+print(planetas)
+
+#Limpiar Set
+planetas.clear()
+print(planetas)
+
+#Eliminar todo el set
+del planetas
+print(planetas)
