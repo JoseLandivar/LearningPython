@@ -59,3 +59,17 @@ def multiplicar_valores(*args):
     for valor in args:
         resultado *= valor
     return resultado
+
+### Diccioneario con Funciones ###
+def diccionario(**terminos):
+    for llaves, clave in terminos.items():
+        print(f'{llaves}:{clave}')
+
+### Listas en funciones ###
+def listaNombres(nombres):
+    for nombre in nombres:
+        print(nombre)
+
+nombres = ['Jose','Juan','Sergio']
+listaNombres(nombres)
+listaNombres('Jose')
