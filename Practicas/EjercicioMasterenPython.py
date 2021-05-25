@@ -62,6 +62,7 @@ def sum (lista):
         suma += i
     return suma
 
+<<<<<<< HEAD
 print(sum([1,2,3,4]))
 
 def multip(lista2):
@@ -79,3 +80,30 @@ def palabra(a):
     print(len(a))
 
 palabra('Hola')
+=======
+print (sum([1,2,3,4]))
+
+def multi(numbers):
+    mult = 1
+    for j in numbers:
+        mult *= j
+    return mult
+
+print(multi([1,2,3,4]))
+
+# 6- Definir una función inversa() que calcule la inversión de una cadena.
+# Por ejemplo la cadena "estoy probando" debería devolver la cadena "odnaborp yotse"
+
+def inversa (cadena):
+    invertida = ""
+    cont = len(cadena)
+    indice = -1
+    while cont >= 1:
+        invertida += cadena[indice]
+        indice = indice + (-1)
+        cont -= 1
+    return invertida
+
+print(inversa('Hola'))
+
+>>>>>>> main
