@@ -21,7 +21,7 @@ def funcionMulticacion():
     mult1 = int(input('Ingrese un numero: '))
     mult2 = int(input('Ingrese un numero: '))
     multiplicacion = mult1 * mult2
-    print(f'L amultiplicacion es: {multiplicacion}')
+    print(f'La multiplicacion es: {multiplicacion}')
 
 funcionMulticacion()
 
