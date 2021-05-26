@@ -6,3 +6,6 @@ def factorial(numero):
         return numero * factorial(numero-1)
         
 print(factorial(5))
+
+numero = int(input('Ingrese Factorial: '))
+print(factorial(numero)) 
