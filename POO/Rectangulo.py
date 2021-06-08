@@ -12,3 +12,17 @@ En este caso el valor de 20. Ya que el cálculo del área es 4 por 5. Nos da el 
 Así que el ejercicio que les dejamos realizar utilizando el concepto de clases que hemos estudiado hasta
 el momento.
 '''
+class Rectangulo:
+    def __init__(self, base, altura):
+        self.base = base
+        self.altura = altura
+
+    def formula(self):
+        return self.base * self.altura
+
+
+base = int(input('Ingrese Base: '))
+altura = int(input('Ingrese Altura: '))
+
+resultado = Rectangulo(base,altura)
+print(f'El area es; {resultado.formula()}')
